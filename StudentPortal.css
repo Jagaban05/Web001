@@ -1,0 +1,489 @@
+body{
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.div1{
+    background-image: url(../images/group-young-afro-american-female-student-dressed-black-graduation-gown-campus-as-background_1157-50418.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .div1{
+    width: 100%;
+    height: 160vh;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.overall{
+    position: relative;
+}
+
+.div2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.fa-graduation-cap{
+    font-size: 2rem;
+    color: yellow;
+}
+
+.spn1{
+    font-size: 3rem;
+    
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .spn1{
+        font-size: 1.5rem;
+    }
+}
+
+.navbar{
+    margin: 2rem;
+    margin-left: 5rem;
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navbar{
+        margin: 2rem;
+        margin-left: 2rem;
+        display:  block;
+    }
+}
+
+@media screen and (min-width:  769px) and (max-width: 1200px) {
+    .navbar{
+        margin: 2rem;
+        margin-left: 2rem;
+    }
+    .spn1{
+        font-size: 2rem;
+    }
+}
+
+.unord1{
+    list-style: none;
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .unord1{
+        display: block;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .unord1{
+        display: flex;
+}
+}
+
+.lnk1{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .lnk1{
+        padding: 1rem;
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .lnk1{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+.home{
+    margin-left: 10rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .home{
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .home{
+        margin-left: 15%;
+    }
+}
+
+.apply{
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    /* background-color: rgb(230, 230, 31); */
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .apply{
+        padding: 0.6rem;
+        font-size: 1rem;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        background-color: rgb(230, 230, 31);
+        width: 7rem;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .apply{
+        padding: 0.6rem;
+        font-size: 1.5rem;
+        color: yellow;
+        font-weight: bold;
+        border-radius: 50px;
+        width: 7rem;
+}
+}
+
+.fa-magnifying-glass{
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .fa-magnifying-glass{
+        display: none;
+    }
+}
+
+.para1{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.head1{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.btn1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(230, 230, 31);
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    position: absolute;
+    left: 47%;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .btn1{
+    position: absolute;
+    left: 37%;
+    margin-top: 0rem;
+    }
+}
+
+.grid1{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    margin-left: 10%;
+    opacity: 1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .grid1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        color: white;
+        margin-left:0;
+        opacity: 1;
+}
+}
+.indiv1 , .indiv2, .indiv3{
+    display: flex;
+    padding: 0.5rem;
+}
+
+.hd1{
+    font-size: 1.5rem;
+}
+.par1{
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .hd1{
+        font-size: 1.2rem;
+    }
+    .par1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    
+}
+
+.extra{
+    font-size: 3rem;
+    padding: 1rem;
+    color:rgb(230, 230, 31);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .extra{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        color:rgb(230, 230, 31);
+    }
+}
+
+.extra2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    color:rgb(230, 230, 31);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .extra2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        color:rgb(230, 230, 31);
+    }
+}
+
+.overall2{
+    position: relative;
+    bottom:-12rem;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overflw{
+    overflow: auto;
+}
+
+.img2{
+    margin-top:0 ;
+    float: right;
+    margin-right: 10rem;
+}
+
+.head2{
+    font-size: 2.5rem;
+    margin-left: 10rem;
+}
+
+.para2{
+    margin-left: 10rem;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .head2{
+        font-size: 2rem;
+        margin-left: 0rem;
+    }
+    .para2{
+        margin-left: 0rem;
+    }
+    .img2{
+        margin-top:0 ;
+        float: right;
+        margin-right: 0rem;
+        width: 20rem;
+        height: 15rem;
+    }
+    .overall2{
+        position: relative;
+        bottom:-7rem;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .head2{
+        font-size: 2rem;
+        margin-left: 0rem;
+    }
+    .para2{
+        margin-left: 0rem;
+    }
+    .img2{
+        margin-top:0 ;
+        float: right;
+        margin-right: 0rem;
+        width: 50%;
+        height: 50%;
+}
+.overall2{
+    position: relative;
+    bottom:-10rem;
+    background: rgba(0, 0, 0, 0.7);
+}
+.grid1{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    margin-left: 2%;
+    opacity: 1;
+}
+}
+
+.bar1{
+    width:100%;
+    background-color: rgb(230, 230, 31);
+}
+
+.unord2{
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.lst1{
+    display: inline-block;
+    padding: 1.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10%;
+}
+
+.spn2{
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .lst1{
+        display: inline-block;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        margin-left: 3%;
+    }
+    
+    .spn2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .lst1{
+        display: inline-block;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        margin-left: 7%;
+    }
+    
+    .spn2{
+        font-size: 2rem;
+    }
+}
+
+.head3{
+    text-align: center;
+    border: 0px 3px 0px 3px black;
+}
+
+.img3{
+    width: 15rem;
+    height: 18rem;
+    border-bottom: 3px solid rgb(230, 230, 31);
+}
+
+.grd2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin-left: 15%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .img3{
+        width: 18rem;
+        height: 22rem;
+        border-bottom: 3px solid rgb(230, 230, 31);
+    }
+    
+    .grd2{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 75%;
+        margin-left: 30%;
+        grid-gap: 1rem;
+    }    
+}
+
+@media screen and (min-width:768px ) and (max-width: 1200px) {
+    .grd2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 75%;
+        margin-left: 15%;
+        grid-gap: 1rem;
+    }    
+}
+
+.btn2{
+    font-size: 1.3rem;
+    font-family: 'Ibarra Real Nova', serif;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(230, 230, 31);
+}
+
+.smldiv1{
+    position: relative;
+}
+
+.img4{
+    width: 3rem;
+    position: absolute;
+    top: 16.5rem;
+    left: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .img4{
+        width: 3rem;
+        position: absolute;
+        top: 20.5rem;
+    }
+}
+
+.head4{
+    margin-top: 2rem;
+}
